@@ -1,0 +1,311 @@
+2019-12-23 13:51:13,082-0500 localhost-startStop-1 WARN      [o.a.catalina.util.SessionIdGeneratorBase] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [298] milliseconds.
+2019-12-23 13:51:13,121-0500 JIRA-Bootstrap INFO      [c.a.jira.startup.JiraStartupLogger] 
+    
+    ****************
+    JIRA starting...
+    ****************
+    
+2019-12-23 13:51:13,404-0500 JIRA-Bootstrap INFO      [c.a.jira.startup.JiraStartupLogger] 
+    
+    ___ Environment _____________________________
+    
+         JIRA Build                                    : 8.6.0#806000-sha1:737bcc05e3687605702e76b312ace69277496331
+         Build Date                                    : Mon Dec 16 00:00:00 EST 2019
+         JIRA Installation Type                        : Standalone
+         Application Server                            : Apache Tomcat/8.5.42 - Servlet API 3.1
+         Java Version                                  : 1.8.0_202 - AdoptOpenJdk
+         Current Working Directory                     : C:\Users\s335shar\Atlassian\Jira
+         Maximum Allowable Memory                      : 1820MB
+         Total Memory                                  : 367MB
+         Free Memory                                   : 324MB
+         Used Memory                                   : 43MB
+         Memory Pool: Code Cache                       : Code Cache: init = 33554432(32768K) used = 11042112(10783K) committed = 33554432(32768K) max = 536870912(524288K)
+         Memory Pool: Metaspace                        : Metaspace: init = 0(0K) used = 20931240(20440K) committed = 21626880(21120K) max = -1(-1K)
+         Memory Pool: Compressed Class Space           : Compressed Class Space: init = 0(0K) used = 2346896(2291K) committed = 2490368(2432K) max = 1073741824(1048576K)
+         Memory Pool: PS Eden Space                    : PS Eden Space: init = 100663296(98304K) used = 22074232(21556K) committed = 98566144(96256K) max = 680001536(664064K)
+         Memory Pool: PS Survivor Space                : PS Survivor Space: init = 16777216(16384K) used = 2610536(2549K) committed = 17825792(17408K) max = 17825792(17408K)
+         Memory Pool: PS Old Gen                       : PS Old Gen: init = 268435456(262144K) used = 20924984(20434K) committed = 268435456(262144K) max = 1431830528(1398272K)
+         JVM Input Arguments                           : -Djava.util.logging.config.file=C:\Users\s335shar\Atlassian\Jira\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms384m -Xmx2048m -XX:InitialCodeCacheSize=32m -XX:ReservedCodeCacheSize=512m -Djava.awt.headless=true -Datlassian.standalone=JIRA -Dorg.apache.jasper.runtime.BodyContentImpl.LIMIT_BUFFER=true -Dmail.mime.decodeparameters=true -Dorg.dom4j.factory=com.atlassian.core.xml.InterningDocumentFactory -XX:-OmitStackTraceInFastThrow -Djava.locale.providers=COMPAT -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Xloggc:C:\Users\s335shar\ATLASS~1\Jira\bin\..\logs\atlassian-jira-gc-%t.log -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=20M -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+PrintGCCause -Dignore.endorsed.dirs= -Dcatalina.base=C:\Users\s335shar\Atlassian\Jira -Dcatalina.home=C:\Users\s335shar\Atlassian\Jira -Djava.io.tmpdir=C:\Users\s335shar\Atlassian\Jira\temp
+         Java Compatibility Information                : JIRA version = 8.6.0, Java Version = 1.8.0_202
+    
+    ___ Java System Properties ________________
+    
+         atlassian.standalone                          : JIRA
+         awt.toolkit                                   : sun.awt.windows.WToolkit
+         catalina.base                                 : C:\Users\s335shar\Atlassian\Jira
+         catalina.home                                 : C:\Users\s335shar\Atlassian\Jira
+         catalina.useNaming                            : true
+         common.loader                                 : "${catalina.base}/lib",
+                                                         "${catalina.base}/lib/*.jar",
+                                                         "${catalina.home}/lib",
+                                                         "${catalina.home}/lib/*.jar"
+         file.encoding                                 : Cp1252
+         file.encoding.pkg                             : sun.io
+         ignore.endorsed.dirs                          : 
+         java.awt.graphicsenv                          : sun.awt.Win32GraphicsEnvironment
+         java.awt.headless                             : true
+         java.awt.printerjob                           : sun.awt.windows.WPrinterJob
+         java.class.version                            : 52.0
+         java.home                                     : C:\Users\s335shar\Atlassian\Jira\jre
+         java.io.tmpdir                                : C:\Users\s335shar\Atlassian\Jira\temp
+         java.locale.providers                         : COMPAT
+         java.naming.factory.initial                   : org.apache.naming.java.javaURLContextFactory
+         java.naming.factory.url.pkgs                  : org.apache.naming
+         java.protocol.handler.pkgs                    : org.apache.catalina.webresources
+         java.runtime.name                             : OpenJDK Runtime Environment
+         java.runtime.version                          : 1.8.0_202-b08
+         java.specification.name                       : Java Platform API Specification
+         java.specification.vendor                     : Oracle Corporation
+         java.specification.version                    : 1.8
+         java.util.concurrent.ForkJoinPool.common.threadFactory : org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory
+         java.util.logging.config.file                 : C:\Users\s335shar\Atlassian\Jira\conf\logging.properties
+         java.util.logging.manager                     : org.apache.juli.ClassLoaderLogManager
+         java.vendor                                   : AdoptOpenJdk
+         java.vendor.url                               : https://adoptopenjdk.net/
+         java.vendor.url.bug                           : https://github.com/AdoptOpenJDK/openjdk-build/issues
+         java.version                                  : 1.8.0_202
+         java.vm.info                                  : mixed mode
+         java.vm.name                                  : OpenJDK 64-Bit Server VM
+         java.vm.specification.name                    : Java Virtual Machine Specification
+         java.vm.specification.vendor                  : Oracle Corporation
+         java.vm.specification.version                 : 1.8
+         java.vm.vendor                                : Oracle Corporation
+         java.vm.version                               : 25.202-b08
+         jdk.tls.ephemeralDHKeySize                    : 2048
+         mail.mime.decodeparameters                    : true
+         org.apache.jasper.runtime.BodyContentImpl.LIMIT_BUFFER : true
+         org.dom4j.factory                             : com.atlassian.core.xml.InterningDocumentFactory
+         os.arch                                       : amd64
+         os.name                                       : Windows 10
+         os.version                                    : 10.0
+         package.access                                : sun.,
+                                                         org.apache.catalina.,
+                                                         org.apache.coyote.,
+                                                         org.apache.jasper.,
+                                                         org.apache.tomcat.
+         package.definition                            : sun.,
+                                                         java.,
+                                                         org.apache.catalina.,
+                                                         org.apache.coyote.,
+                                                         org.apache.jasper.,
+                                                         org.apache.naming.,
+                                                         org.apache.tomcat.
+         server.loader                                 : 
+         shared.loader                                 : 
+         sun.arch.data.model                           : 64
+         sun.boot.library.path                         : C:\Users\s335shar\Atlassian\Jira\jre\bin
+         sun.cpu.endian                                : little
+         sun.cpu.isalist                               : amd64
+         sun.desktop                                   : windows
+         sun.io.unicode.encoding                       : UnicodeLittle
+         sun.java.command                              : org.apache.catalina.startup.Bootstrap start
+         sun.java.launcher                             : SUN_STANDARD
+         sun.jnu.encoding                              : Cp1252
+         sun.management.compiler                       : HotSpot 64-Bit Tiered Compilers
+         sun.os.patch.level                            : 
+         sun.stderr.encoding                           : cp437
+         sun.stdout.encoding                           : cp437
+         tomcat.util.buf.StringCache.byte.enabled      : true
+         tomcat.util.scan.StandardJarScanFilter.jarsToScan : log4j-taglib*.jar,
+                                                         log4j-web*.jar,
+                                                         log4javascript*.jar,
+                                                         slf4j-taglib*.jar
+         tomcat.util.scan.StandardJarScanFilter.jarsToSkip : annotations-api.jar,
+                                                         ant-junit*.jar,
+                                                         ant-launcher.jar,
+                                                         ant.jar,
+                                                         asm-*.jar,
+                                                         aspectj*.jar,
+                                                         bootstrap.jar,
+                                                         catalina-ant.jar,
+                                                         catalina-ha.jar,
+                                                         catalina-jmx-remote.jar,
+                                                         catalina-storeconfig.jar,
+                                                         catalina-tribes.jar,
+                                                         catalina-ws.jar,
+                                                         catalina.jar,
+                                                         cglib-*.jar,
+                                                         cobertura-*.jar,
+                                                         commons-beanutils*.jar,
+                                                         commons-codec*.jar,
+                                                         commons-collections*.jar,
+                                                         commons-daemon.jar,
+                                                         commons-dbcp*.jar,
+                                                         commons-digester*.jar,
+                                                         commons-fileupload*.jar,
+                                                         commons-httpclient*.jar,
+                                                         commons-io*.jar,
+                                                         commons-lang*.jar,
+                                                         commons-logging*.jar,
+                                                         commons-math*.jar,
+                                                         commons-pool*.jar,
+                                                         dom4j-*.jar,
+                                                         easymock-*.jar,
+                                                         ecj-*.jar,
+                                                         el-api.jar,
+                                                         geronimo-spec-jaxrpc*.jar,
+                                                         h2*.jar,
+                                                         hamcrest-*.jar,
+                                                         hibernate*.jar,
+                                                         httpclient*.jar,
+                                                         icu4j-*.jar,
+                                                         jasper-el.jar,
+                                                         jasper.jar,
+                                                         jaspic-api.jar,
+                                                         jaxb-*.jar,
+                                                         jaxen-*.jar,
+                                                         jdom-*.jar,
+                                                         jetty-*.jar,
+                                                         jmx-tools.jar,
+                                                         jmx.jar,
+                                                         jsp-api.jar,
+                                                         jstl.jar,
+                                                         jta*.jar,
+                                                         junit-*.jar,
+                                                         junit.jar,
+                                                         log4j*.jar,
+                                                         mail*.jar,
+                                                         objenesis-*.jar,
+                                                         oraclepki.jar,
+                                                         oro-*.jar,
+                                                         servlet-api-*.jar,
+                                                         servlet-api.jar,
+                                                         slf4j*.jar,
+                                                         taglibs-standard-spec-*.jar,
+                                                         tagsoup-*.jar,
+                                                         tomcat-api.jar,
+                                                         tomcat-coyote.jar,
+                                                         tomcat-dbcp.jar,
+                                                         tomcat-i18n-*.jar,
+                                                         tomcat-jdbc.jar,
+                                                         tomcat-jni.jar,
+                                                         tomcat-juli-adapters.jar,
+                                                         tomcat-juli.jar,
+                                                         tomcat-util-scan.jar,
+                                                         tomcat-util.jar,
+                                                         tomcat-websocket.jar,
+                                                         tools.jar,
+                                                         websocket-api.jar,
+                                                         wsdl4j*.jar,
+                                                         xercesImpl.jar,
+                                                         xml-apis.jar,
+                                                         xmlParserAPIs-*.jar,
+                                                         xmlParserAPIs.jar,
+                                                         xom-*.jar
+         user.country                                  : CA
+         user.dir                                      : C:\Users\s335shar\Atlassian\Jira
+         user.home                                     : C:\Users\s335shar
+         user.language                                 : en
+         user.name                                     : s335shar
+         user.script                                   : 
+         user.timezone                                 : America/New_York
+         user.variant                                  : 
+    
+2019-12-23 13:51:14,123-0500 JIRA-Bootstrap INFO      [c.a.j.config.database.SystemDatabaseConfigurationLoader] Reading database configuration from C:\Users\s335shar\Atlassian\Application Data\Jira\dbconfig.xml
+2019-12-23 13:51:14,228-0500 JIRA-Bootstrap INFO      [c.a.j.config.database.DatabaseConfigHandler] Trying to get encrypted password from xml and decrypt it
+2019-12-23 13:51:14,228-0500 JIRA-Bootstrap INFO      [c.a.j.config.database.DatabaseConfigHandler] Database password decryption not performed.
+2019-12-23 13:51:14,484-0500 JIRA-Bootstrap ERROR      [c.a.j.health.checks.CustomisedConfigurationsHealthCheck] Error creating copy of modifications directory
+java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at sun.nio.ch.FileChannelImpl.size(FileChannelImpl.java:315)
+	at org.apache.commons.io.FileUtils.doCopyFile(FileUtils.java:1125)
+	at org.apache.commons.io.FileUtils.doCopyDirectory(FileUtils.java:1424)
+	at org.apache.commons.io.FileUtils.doCopyDirectory(FileUtils.java:1422)
+	at org.apache.commons.io.FileUtils.doCopyDirectory(FileUtils.java:1422)
+	at org.apache.commons.io.FileUtils.doCopyDirectory(FileUtils.java:1422)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1366)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1246)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1215)
+	at com.atlassian.jira.health.checks.CustomisedConfigurationsHealthCheck.backupModifications(CustomisedConfigurationsHealthCheck.java:124)
+	at com.atlassian.jira.health.checks.CustomisedConfigurationsHealthCheck.doPerform(CustomisedConfigurationsHealthCheck.java:92)
+	at com.atlassian.jira.health.HealthCheckTemplate.perform(HealthCheckTemplate.java:23)
+	at com.atlassian.jira.health.DefaultHealthCheckExecutor.runCheck(DefaultHealthCheckExecutor.java:76)
+	at com.atlassian.jira.health.DefaultHealthCheckExecutor.lambda$applyAndCollectExceptions$1(DefaultHealthCheckExecutor.java:55)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.atlassian.jira.health.DefaultHealthCheckExecutor.applyAndCollectExceptions(DefaultHealthCheckExecutor.java:55)
+	at com.atlassian.jira.health.DefaultHealthCheckExecutor.performHealthChecks(DefaultHealthCheckExecutor.java:44)
+	at com.atlassian.jira.health.HealthChecks.executeChecksAndRecordResults(HealthChecks.java:164)
+	at com.atlassian.jira.health.HealthChecks.runHealthChecks(HealthChecks.java:154)
+	at com.atlassian.jira.health.HealthChecks.runHealthChecks(HealthChecks.java:66)
+	at com.atlassian.jira.startup.BootstrapContainerLauncher.start(BootstrapContainerLauncher.java:32)
+	at com.atlassian.jira.startup.DefaultJiraLauncher.preDbLaunch(DefaultJiraLauncher.java:117)
+	at com.atlassian.jira.startup.DefaultJiraLauncher.lambda$start$0(DefaultJiraLauncher.java:103)
+	at com.atlassian.jira.util.devspeed.JiraDevSpeedTimer.run(JiraDevSpeedTimer.java:31)
+	at com.atlassian.jira.startup.DefaultJiraLauncher.start(DefaultJiraLauncher.java:102)
+	at com.atlassian.jira.startup.LauncherContextListener.initSlowStuff(LauncherContextListener.java:154)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-23 13:51:14,544-0500 JIRA-Bootstrap INFO      [c.a.jira.health.PreviousVersionHashService] Cannot read baseline-hash-registry.properties
+java.io.FileNotFoundException: File 'C:\Users\s335shar\Atlassian\Application Data\Jira\customisations-backup\baseline-hash-registry.properties' does not exist
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:297)
+	at org.apache.commons.io.FileUtils.lineIterator(FileUtils.java:1938)
+	at org.apache.commons.io.FileUtils.lineIterator(FileUtils.java:1963)
+	at com.atlassian.jira.health.PreviousVersionHashService.readHashFile(PreviousVersionHashService.java:68)
+	at com.atlassian.jira.health.PreviousVersionHashService.initHashes(PreviousVersionHashService.java:53)
+	at com.atlassian.jira.health.PreviousVersionHashService.withHashProvider(PreviousVersionHashService.java:47)
+	at com.atlassian.jira.health.ModificationsMigrationService.checkCopyingNotPossible(ModificationsMigrationService.java:35)
+	at com.atlassian.jira.health.checks.CustomisedConfigurationsHealthCheck.doPerform(CustomisedConfigurationsHealthCheck.java:99)
+	at com.atlassian.jira.health.HealthCheckTemplate.perform(HealthCheckTemplate.java:23)
+	at com.atlassian.jira.health.DefaultHealthCheckExecutor.runCheck(DefaultHealthCheckExecutor.java:76)
+	at com.atlassian.jira.health.DefaultHealthCheckExecutor.lambda$applyAndCollectExceptions$1(DefaultHealthCheckExecutor.java:55)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at com.atlassian.jira.health.DefaultHealthCheckExecutor.applyAndCollectExceptions(DefaultHealthCheckExecutor.java:55)
+	at com.atlassian.jira.health.DefaultHealthCheckExecutor.performHealthChecks(DefaultHealthCheckExecutor.java:44)
+	at com.atlassian.jira.health.HealthChecks.executeChecksAndRecordResults(HealthChecks.java:164)
+	at com.atlassian.jira.health.HealthChecks.runHealthChecks(HealthChecks.java:154)
+	at com.atlassian.jira.health.HealthChecks.runHealthChecks(HealthChecks.java:66)
+	at com.atlassian.jira.startup.BootstrapContainerLauncher.start(BootstrapContainerLauncher.java:32)
+	at com.atlassian.jira.startup.DefaultJiraLauncher.preDbLaunch(DefaultJiraLauncher.java:117)
+	at com.atlassian.jira.startup.DefaultJiraLauncher.lambda$start$0(DefaultJiraLauncher.java:103)
+	at com.atlassian.jira.util.devspeed.JiraDevSpeedTimer.run(JiraDevSpeedTimer.java:31)
+	at com.atlassian.jira.startup.DefaultJiraLauncher.start(DefaultJiraLauncher.java:102)
+	at com.atlassian.jira.startup.LauncherContextListener.initSlowStuff(LauncherContextListener.java:154)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-23 13:51:14,573-0500 JIRA-Bootstrap ERROR      [c.a.jira.health.HealthChecks] The jira.home directory is locked
+2019-12-23 13:51:14,573-0500 JIRA-Bootstrap ERROR      [c.a.jira.health.HealthChecks] The jira.home directory C:\Users\s335shar\Atlassian\Application Data\Jira is locked by another running instance of JIRA. Your jira.home directory can only be used by one running JIRA instance.
+    Review our documentation for more information on setting your JIRA home.
+2019-12-23 13:51:14,573-0500 JIRA-Bootstrap WARN      [c.a.jira.health.HealthChecks] Custom changes have not been carried over
+2019-12-23 13:51:14,573-0500 JIRA-Bootstrap WARN      [c.a.jira.health.HealthChecks] The listed configuration files contain custom changes. To keep your current configuration, re-apply these custom changes to the new version of the files during upgrade.
+    	- atlassian-jira\WEB-INF\classes\jira-application.properties
+    
+    Note: Make sure you only copy over the changes not the entire files.
+    
+2019-12-23 13:51:14,772-0500 JIRA-Bootstrap INFO      [c.a.jira.startup.JiraStartupLogger] Running JIRA startup checks.
+2019-12-23 13:51:14,775-0500 JIRA-Bootstrap FATAL      [c.a.jira.startup.JiraStartupLogger] Startup check failed. JIRA will be locked.
+2019-12-23 13:51:14,899-0500 JIRA-Bootstrap INFO      [c.a.jira.startup.LauncherContextListener] Memory Usage:
+    ---------------------------------------------------------------------------------
+      Heap memory     :  Used:   91 MiB.  Committed:  409 MiB.  Max: 2031 MiB
+      Non-heap memory :  Used:   38 MiB.  Committed:   62 MiB.  Max: 1536 MiB
+    ---------------------------------------------------------------------------------
+      TOTAL           :  Used:  129 MiB.  Committed:  470 MiB.  Max: 3567 MiB
+    ---------------------------------------------------------------------------------
+2019-12-23 13:51:14,900-0500 localhost-startStop-1 INFO      [c.a.jira.startup.DefaultJiraLauncher] Stopping launchers
+2019-12-23 13:51:14,906-0500 localhost-startStop-1 ERROR      [o.a.c.c.C.[Catalina].[localhost].[/]] Exception sending context destroyed event to listener instance of class [com.atlassian.jira.startup.LauncherContextListener]
+java.lang.NullPointerException
+	at com.atlassian.jira.startup.ClusteringLauncher.stop(ClusteringLauncher.java:49)
+	at com.atlassian.jira.startup.DefaultJiraLauncher.stop(DefaultJiraLauncher.java:200)
+	at com.atlassian.jira.startup.LauncherContextListener.contextDestroyed(LauncherContextListener.java:211)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4817)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	... 3 filtered
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
